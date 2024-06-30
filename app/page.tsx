@@ -1,9 +1,9 @@
-import "./globals.css";
+// import "./globals.css";
 
 export default function Home() {
   return (
     <div className="">
-      Hello Nextjs
+      Parent Page
     </div>
   );
 }

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@layer base {
+    body {
+       @apply h-screen;
+       @apply flex;
+       @apply flex-col;
+       @apply bg-bg;
+       @apply text-text;
+    }
+}
