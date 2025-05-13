@@ -1,4 +1,5 @@
-export default function Login() {
+"use client";
+export default function Signup() {
 	const handleChange = (
 		event: React.ChangeEvent<HTMLInputElement>
 	): void => {};
@@ -6,14 +7,21 @@ export default function Login() {
 	const handleSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
 		event.preventDefault();
 	};
+
 	return (
-		// <div className="h-1/2">
-		//     <form className="">
-		//         <h3 className="bg-blue-400">Sign In</h3>
-		//     </form>
-		// </div>
 		<div className="">
-			<form className="h-1/2" onSubmit={handleSubmit}>
+			<form className="" onSubmit={handleSubmit}>
+				<label htmlFor="username" className="">
+					Username
+				</label>
+				<input
+					type="text"
+					id="username"
+					value=""
+					placeholder="Enter username..."
+					onChange={handleChange}
+					className=""
+				/>
 				<label htmlFor="email" className="">
 					Email
 				</label>
@@ -36,11 +44,8 @@ export default function Login() {
 					onChange={handleChange}
 					className=""
 				/>
-				<button
-					type="submit"
-					className="bg-blue-400 text-white rounded-lg"
-				>
-					Login
+				<button type="submit" className="">
+					Submit
 				</button>
 			</form>
 		</div>
