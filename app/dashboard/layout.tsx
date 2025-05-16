@@ -8,9 +8,15 @@ export default function DashboardLayout({
 }) {
 	return (
 		<html lang="en">
-			<body>
-				<Sidebar />
-				<Navbar />
+			<body className="">
+				<div className="flex flex-row">
+					<div className="flex-[1]">
+						<Sidebar />
+					</div>
+					<div className="flex-[4]">
+						<Navbar />
+					</div>
+				</div>
 				{children}
 			</body>
 		</html>

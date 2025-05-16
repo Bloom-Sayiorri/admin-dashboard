@@ -6,7 +6,10 @@ export default function Navbar() {
 		<header className="flex justify-between">
 			<h2>Adminzz</h2>
 			<nav className="flex gap-2">
-				<Link href="/" className="">
+				<Link
+					href="/"
+					className="hover:underline hover:decoration-blue-400"
+				>
 					Home
 				</Link>
 				<Link href="/" className="">

@@ -10,10 +10,6 @@
 
 @layer base {
 	body {
-		@apply h-screen;
-		@apply flex;
-		@apply flex-col;
-		@apply bg-bg;
-		@apply text-text;
+		@apply bg-bg text-text;
 	}
 }

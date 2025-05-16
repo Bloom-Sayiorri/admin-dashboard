@@ -7,7 +7,7 @@ export default function Logout() {
 		<button
 			type="button"
 			onClick={handleClick}
-			className="text-white bg-blue-400 rounded-md px-4 py-1 text-base"
+			className="text-white bg-blue-400 rounded-md px-3 py-2 text-base"
 		>
 			Logout
 		</button>
